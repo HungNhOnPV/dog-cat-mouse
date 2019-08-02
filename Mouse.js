@@ -11,4 +11,8 @@ Mouse.prototype.run = function() {
 	console.log('Run');
 };
 
+Mouse.prototype.sleep = function() {
+	consolog('Sleep');
+};
+
 module.exports = Mouse;
